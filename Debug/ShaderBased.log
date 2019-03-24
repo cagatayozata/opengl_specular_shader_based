@@ -1,0 +1,23 @@
+﻿Build started 24.12.2018 13:43:17.
+     1>Project "C:\Users\test test\Desktop\SpecularShaderBased\ShaderBased\ShaderBased.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "3D-Template.cpp"
+         3D-Template.cpp
+     1>c:\users\test test\desktop\specularshaderbased\shaderbased\camera.h(95): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\test test\desktop\specularshaderbased\shaderbased\camera.h(104): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\test test\desktop\specularshaderbased\shaderbased\camera.h(119): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\test test\desktop\specularshaderbased\shaderbased\camera.h(120): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\test test\desktop\specularshaderbased\shaderbased\camera.h(121): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\test test\desktop\specularshaderbased\shaderbased\3d-template.cpp(46): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\test test\desktop\specularshaderbased\shaderbased\3d-template.cpp(58): warning C4305: 'argument': truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\test test\Desktop\SpecularShaderBased\Debug\ShaderBased.exe" /INCREMENTAL /NOLOGO glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\test test\Desktop\SpecularShaderBased\Debug\ShaderBased.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\test test\Desktop\SpecularShaderBased\Debug\ShaderBased.lib" /MACHINE:X86 "Debug\3D-Template.obj"
+         Debug\Shader.obj
+         Debug\stb_image.obj
+         Debug\texture.obj
+         ShaderBased.vcxproj -> C:\Users\test test\Desktop\SpecularShaderBased\Debug\ShaderBased.exe
+     1>Done Building Project "C:\Users\test test\Desktop\SpecularShaderBased\ShaderBased\ShaderBased.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.70
